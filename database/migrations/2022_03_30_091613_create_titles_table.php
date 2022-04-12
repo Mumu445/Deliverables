@@ -15,7 +15,7 @@ class CreateTitlesTable extends Migration
     {
         Schema::create('titles', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('name',100);
+            $table->string('name',20);
             $table->string('author',20);
             $table->string('drawer',20);
             $table->string('magazine',20);
